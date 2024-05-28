@@ -1,0 +1,231 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin: 0%;
+}
+
+nav {
+    height:80px;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.logo a{
+    color: #F66666;
+    font-size: 35px;
+    line-height:75px;
+    padding: 100px 0;
+    padding-left: 20px;
+    font-weight: 600;
+}
+.logo1 a{
+    color: #ffffff;
+    font-size: 35px;
+    line-height:72px;
+    padding: 100px 0;
+    padding-left: 20px;
+    font-weight: 545;
+}
+
+img {
+    border: 1px;
+    border-radius: 10px;
+}
+
+nav input {
+    margin-top: 1%;
+    padding: 0%;
+    border: 0%;
+    margin-left: 7%;
+    width: 20%;
+}
+
+nav label {
+    word-spacing: 0px;
+}
+
+.button4 {
+    margin-left: 0;
+    margin-top: 0%;
+    width: 25%;
+    background-color: #ffffff;
+    color: #F66666;
+    border: 1px solid #F66666;
+    padding: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+nav ul {
+    float:right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 100px 0;
+    padding: 5px 0;
+    margin-top: 25px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    letter-spacing: 2px;
+    font-weight: 590;
+
+}
+
+.button {
+    background-color: #ffffff;
+    color: #F66666;
+    border: 1px solid #F66666;
+    padding: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.button2 {
+    background-color: #F66666;
+    color: #ffffff;
+    border: 1px solid #F66666;
+    padding: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.hjk {
+    height: 300px;
+    width: 1fr;
+    background-color: #F66666;
+}
+
+.body {
+    width:50%;
+    margin-left: 10%;
+}
+
+.body h1 {
+    font-size: 46px;
+    line-height: 50px;
+    font-weight: 540;
+    margin-bottom: 5%;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.body a {
+    font-weight: 600;
+}
+
+.body p {
+    line-height: 25px;
+    color: #000000;
+}
+
+aside {
+    display: inline-block;
+    float: right;
+    width: 50%;
+}
+
+.clr {
+    clear: both;
+}
+
+@media(min-width:1000px){
+    .thecourses {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+}
+
+.hco {
+    height: 100%;
+    max-height: 250px;
+}
+
+.thecourses div {
+    border: 1px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.block{
+    height: auto;
+    flex-basis: 30%;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.block h2 {
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+}
+
+.block p {
+    text-align: center;
+}
+
+.mainbody {
+	margin: auto;
+    background-color: #ffffff;
+}
+
+img {
+    width: 100%;
+    height: 100%;   
+}
+
+aside div img {
+    height: 400px;
+    width: min-content;
+    margin-top: 40px;
+}
+
+.courses h1 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: 549;
+    color: #000000;
+    font-weight: 600;
+}
+
+.course {
+    color: black;
+    font-weight: 550;
+}
+
+.block h2 {
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.block p {
+    font-weight: 590;
+}
+
+.yo {
+    width: 80%;
+    margin: auto;
+}
+
+.cour {
+    width: 80%;
+    margin: auto;
+}
