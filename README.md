@@ -1,2 +1,2 @@
 # mockup-1: Showaiz
-My project is available at https://mockup-1-omega.vercel.app/
+My project is available at https://exun-mockup1.vercel.app/
